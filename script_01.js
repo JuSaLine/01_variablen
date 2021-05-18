@@ -37,6 +37,7 @@ test = true; // boolean
 console.log("Typ: " + typeof test);
 console.log("Inhalt: " + test);
 */
+/*
 
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark;
@@ -52,6 +53,29 @@ birthYearMark = year - ageMark;
 console.log("Aktuelles Jahr: " + year);
 console.log("birthYearJohn: " + birthYearJohn);
 console.log("birthYearMark: " + birthYearMark);
+*/
+
+/*
+
+let ageJohn, ageMark;
+ageJohn = 25;
+ageMark = 30;
+
+//Vergleich
+
+let isJohnOlder = (ageJohn > ageMark);
+console.log(isJohnOlder);
+*/
+
+let nix;
+let ageJohn = 25;
+firstName = "Max";
+let isJohnOlder = (10 > 5);
+
+console.log("nix: " + typeof nix);
+console.log("ageJohn: " + typeof ageJohn);
+console.log("firstName: " + typeof firstName);
+console.log("isJohnOlder: " + typeof isJohnOlder);
 
 
 
