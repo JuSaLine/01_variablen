@@ -29,12 +29,30 @@ console.log("Hallo, " + firstName + " " + familyName + "!");
 */
 
 // JS ist eine untypisierte Sprache! | untyped
+/*
 let test; //Deklaration
-//test = "hi"; //string
+test = "hi"; //string
 test = 2; // number
 test = true; // boolean
 console.log("Typ: " + typeof test);
 console.log("Inhalt: " + test);
+*/
+
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+let date = new Date();
+let year = date.getFullYear();
+
+ageJohn = 25;
+ageMark = 30;
+
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+console.log("Aktuelles Jahr: " + year);
+console.log("birthYearJohn: " + birthYearJohn);
+console.log("birthYearMark: " + birthYearMark);
+
 
 
 
